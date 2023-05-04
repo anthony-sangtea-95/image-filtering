@@ -1,0 +1,22 @@
+
+body{
+  margin-left:35%;
+}
+* {font-family: Arial, Helvetica, sans-serif;}
+
+h1{font-family: Impact, Charcoal, sans-serif;
+}
+
+#myCanvas{width:300pt;height:330pt;
+border:1px solid lightgrey;
+margin-bottom: 10px;
+}
+
+#fText{margin-top:3pt;}
+
+input{padding:5pt;
+margin-top:5pt;}
+
+input:hover {
+  box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 12px 45px 0 rgba(0,0,0,0.19);
+}

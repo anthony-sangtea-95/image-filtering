@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Image Processing</title>
+<script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js">
+</script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<h1> <font>Filter</font> <font style="border:1px solid white;background:silver;color:darkred">Image</font></h1>
+<canvas id="myCanvas"></canvas> <br>
+
+<font id='fText'>File :</font> 
+<input type="file" multiple="false"
+         accept="image/*" id="imgFile"
+         onchange="upload()"><br>
+  <input type="button" value="Make Gray"
+          onclick="doGray()"> 
+  <input type="button" value="Make Red"
+          onclick="doRed()"> 
+  <input type="button" value="Make Rainbow"
+          onclick="doRB()">
+  <input type="button" value="Reset"
+         onclick="doReset()">
+</body>
+</html>
